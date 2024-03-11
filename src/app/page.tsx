@@ -58,17 +58,6 @@ export default function Home() {
     <p className="text-lg font-bold">Projects</p>
   </div>
 
-{/* CHI HIFU */}
-  <div className="flex flex-col lg:flex-row items-start">
-    <div className="lg:flex-1 p-3 ">
-      <h2 className="text-xl font-bold mb-2">Project Y </h2>
-      <p className="text-base">特許の都合上まだ非公開です</p>
-    </div>
-    <div className="lg:flex-1 p-3">
-      <img src="/text_to_haptics.gif" alt="text_to_haptics.gif" className="w-full h-auto" />
-    </div>
-  </div>
-
 {/* LVB */}
   <div className="flex flex-col lg:flex-row items-start">
     <div className="lg:flex-1 p-3 ">
@@ -91,17 +80,28 @@ export default function Home() {
     </div>
   </div>
 
-{/* hifu siggraph */}
-  <div className="flex flex-col lg:flex-row items-start">
+{/* CHI HIFU */}
+<div className="flex flex-col lg:flex-row items-start">
     <div className="lg:flex-1 p-3 ">
-      <h2 className="text-xl font-bold mb-2">Project X</h2>
-      <p className="text-base">特許の都合上まだ非公開です</p>
+      <h2 className="text-xl font-bold mb-2">Project Y </h2>
+      <p className="text-base">Confidential (due to the patent)</p>
     </div>
     <div className="lg:flex-1 p-3">
-      <img src="/text_to_haptics.gif" alt="text_to_haptics.gif" className="w-full h-auto" />
+      {/* <img src="/text_to_haptics.gif" alt="text_to_haptics.gif" className="w-full h-auto" /> */}
     </div>
   </div>
 
+  {/* hifu siggraph */}
+  <div className="flex flex-col lg:flex-row items-start">
+    <div className="lg:flex-1 p-3 ">
+      <h2 className="text-xl font-bold mb-2">Project X</h2>
+      <p className="text-base">Confidential (due to the patent)</p>
+    </div>
+    <div className="lg:flex-1 p-3">
+      {/* <img src="/text_to_haptics.gif" alt="text_to_haptics.gif" className="w-full h-auto" /> */}
+    </div>
+  </div>
+  
 </div>
 </main>
   );
