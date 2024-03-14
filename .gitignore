@@ -1,6 +1,6 @@
 # Next.js
 .next/
-out/
+
 
 # その他の一般的に無視するべきファイル
 node_modules/
