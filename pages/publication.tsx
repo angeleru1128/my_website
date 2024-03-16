@@ -9,7 +9,7 @@ const Publication = () => {
   {/* バー */}
   <div className="flex justify-end font-mono text-base lg:w-3/4">
     <div className="space-x-5 p-5">
-      <Link href="/about">Home</Link>
+      <a href="https://ayakatsutsuidesu.com/">Home</a>
       <Link href="/about">About</Link>
       <a href="/document/AyakaTsutsui_Resume .pdf">CV</a>
     </div>
