@@ -7,6 +7,7 @@ export default function Home() {
 {/* バー */}
 <div className="flex justify-end font-mono text-base lg:w-3/4">
   <div className="space-x-5 p-5">
+    <a href="https://ayakatsutsuidesu.com/">Home</a>
     <Link href="/about">About</Link>
     <Link href="/publication">Publication</Link>
     <a href="/document/AyakaTsutsui_Resume .pdf">CV</a>
